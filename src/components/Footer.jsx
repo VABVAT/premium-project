@@ -3,7 +3,7 @@ function Footer(){
         <div className="basis-1/4 ml-8 flex flex-col justify-between text-sm h-20">
             <div>Get in contact</div>
             <div>mail: xyz@gmail.com </div>
-            <div> phone: +91 9999999999</div>
+            <div> phone: +91-7340996140</div>
             
         </div>
         <div className="basis-1/4  flex flex-col justify-between text-sm mr-4 md:mr-0 h-20" >
