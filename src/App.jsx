@@ -2,12 +2,12 @@ import { useState } from 'react'
 import logo from '/search.png';
 import p1 from '/p1.png'
 import tb from '/tb.png'
-import Card from './Card.jsx'
-import Searchbar from './Searchbar.jsx';
+import Card from './components/Card.jsx'
+import Searchbar from './components/Searchbar.jsx';
 import './App.css'
-import Textcontent from './Textcontent.jsx';
-import Banner from './Banner.jsx';
-import Footer from './footer.jsx';
+import Textcontent from './components/Textcontent.jsx';
+import Banner from './components/Banner.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   const [isVisible, setVisible] = useState(false);
