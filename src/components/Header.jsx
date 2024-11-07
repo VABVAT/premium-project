@@ -11,7 +11,7 @@ function Header(){
        BOCCA
        </div>
        <div>
-        <button onClick={() => (setVisible(true))}><img src={logo} className={`transition-all duration-500   ${!isVisible ? 'w-8 h-8 ml-24 opacity-100 mr-12' : 'w-0 h-0 opacity-0'}`}></img></button> 
+        <button onClick={() => (setVisible(true))}><img src={logo} className={`transition-all duration-500   ${!isVisible ? 'w-8 h-8 ml-16 opacity-100 mr-16' : 'w-0 h-0 opacity-0'}`}></img></button> 
        </div>
        <Searchbar Active={isVisible}/>
        <div className='w-24 h-8 md:ml-auto md:mr-[8%] flex flex-row justify-between'>
