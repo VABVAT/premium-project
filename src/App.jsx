@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, Outlet, Link } from 'react-router-dom'
 import './App.css'
 import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
+import ProductCatalog from './components/productCatalog.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<MainContent />}></Route>
+          <Route path='/items' element={<ProductCatalog />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

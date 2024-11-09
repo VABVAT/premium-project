@@ -16,7 +16,7 @@ export default {
       },
       height: {
         '830' : '839px',
-        '395' : '250px'
+        '395' : '280px'
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'], // Add Poppins as a custom font
